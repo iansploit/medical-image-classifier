@@ -1,37 +1,35 @@
 # Medical Image Classifier
 
-A deep learning application for pneumonia detection in chest X-ray images using TensorFlow and Streamlit.
+A deep learning application demonstrating pneumonia detection in chest X-ray images using TensorFlow and Streamlit.
 
 ## Project Overview
 
-This computer vision project uses convolutional neural networks (CNNs) to classify chest X-ray images as normal or showing signs of pneumonia. The model is deployed through an interactive web application that allows healthcare professionals to upload X-ray images and receive real-time predictions.
+This computer vision project showcases a complete CNN implementation for medical image classification. It includes a training pipeline, model evaluation, and an interactive web interface for image upload and prediction.
 
 ## Features
 
-- **Deep Learning Model**: Custom CNN architecture optimized for medical imaging
-- **Image Preprocessing**: Advanced preprocessing pipeline for X-ray normalization
-- **Web Interface**: Streamlit app for easy image upload and prediction
-- **Model Evaluation**: Comprehensive metrics including sensitivity and specificity
-- **Visualization**: Class activation maps to highlight areas of interest
-- **Production Ready**: Containerized deployment with Docker
+- **Deep Learning Model**: CNN architecture for binary image classification
+- **Training Pipeline**: Complete model training with evaluation metrics
+- **Web Interface**: Streamlit app for image upload and prediction
+- **Model Persistence**: Save and load trained models
+- **Error Handling**: Robust error handling throughout the pipeline
 
 ## Tech Stack
 
-- **Deep Learning**: TensorFlow 2.13, Keras
+- **Deep Learning**: TensorFlow, Keras
 - **Computer Vision**: OpenCV, Pillow
 - **Web Framework**: Streamlit
-- **Data Science**: NumPy, Pandas, Matplotlib, Seaborn
+- **Data Science**: NumPy, Pandas, Matplotlib
 - **Model Evaluation**: scikit-learn
-- **Deployment**: Docker
 
 ## Project Structure
 
 ```
 medical-image-classifier/
 ├── data/
-│   ├── train/              # Training images
-│   ├── test/               # Test images
-│   └── val/                # Validation images
+│   ├── train/              # Training images folder
+│   ├── test/               # Test images folder
+│   └── val/                # Validation images folder
 ├── models/                 # Model storage
 ├── src/
 │   └── model_training.py   # CNN training script
@@ -68,74 +66,46 @@ python src/model_training.py
 
 ### Running the Web Application
 ```bash
-streamlit run web_app/streamlit_app.py
+streamlit run streamlit_app.py
 ```
 Visit `http://localhost:8501` to access the interface.
 
-### Making Predictions
-```python
-from src.prediction import predict_pneumonia
+## Model Implementation
 
-# Load and predict
-result = predict_pneumonia('path/to/xray.jpg')
-print(f"Prediction: {result['class']} (Confidence: {result['confidence']:.2f})")
-```
+- **Architecture**: CNN with convolutional blocks and global average pooling
+- **Training**: Uses sample data for demonstration purposes
+- **Evaluation**: Provides accuracy, precision, recall, and F1-score metrics
+- **Web Interface**: Allows image upload with real-time predictions
 
-## Model Performance
-
-- **Architecture**: Custom CNN with 4 convolutional blocks
-- **Training Data**: 5,863 chest X-ray images
-- **Test Accuracy**: 89.3%
-- **Sensitivity**: 92.1% (detecting pneumonia cases)
-- **Specificity**: 86.7% (identifying normal cases)
-- **AUC-ROC**: 0.94
-
-## Dataset
-
-This project uses the [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) dataset from Kaggle, containing:
-
-- **Normal**: 1,583 chest X-ray images
-- **Pneumonia**: 4,273 chest X-ray images (bacterial and viral)
-- **Image Format**: JPEG, grayscale
-- **Resolution**: Resized to 224x224 pixels
-
-## Key Features
-
-### Image Preprocessing
-- Automatic image resizing and normalization
-- Data augmentation for improved generalization
-- Histogram equalization for contrast enhancement
+## Technical Details
 
 ### Model Architecture
 - Convolutional layers with ReLU activation
 - Batch normalization for stable training
 - Dropout layers for regularization
-- Global average pooling for parameter efficiency
+- Binary classification output with sigmoid activation
 
-### Web Interface
-- Drag-and-drop image upload
-- Real-time prediction display
-- Confidence score visualization
-- Medical disclaimer and usage guidelines
+### Training Features
+- Early stopping to prevent overfitting
+- Model checkpointing for best weights
+- Comprehensive evaluation metrics
+- Training history visualization
 
-## Results and Insights
+## Development Notes
 
-- The model successfully distinguishes between normal and pneumonia cases
-- Data augmentation improved validation accuracy by 7%
-- Transfer learning from ImageNet provided strong baseline performance
-- Class activation maps help identify relevant image regions
-
-## Future Improvements
-
-- [ ] Multi-class classification (bacterial vs viral pneumonia)
-- [ ] Integration with DICOM medical imaging format
-- [ ] Federated learning for privacy-preserving training
-- [ ] Mobile app development for point-of-care usage
-- [ ] Integration with hospital information systems
+This project currently uses synthetic sample data to demonstrate the complete ML pipeline. The architecture and training process are designed to work with real medical imaging datasets when integrated.
 
 ## Medical Disclaimer
 
-This tool is for educational and research purposes only. It should not be used as a substitute for professional medical diagnosis. Always consult qualified healthcare professionals for medical decisions.
+This tool is for educational and demonstration purposes only. It should not be used for actual medical diagnosis. Always consult qualified healthcare professionals for medical decisions.
+
+## Future Enhancements
+
+- Integration with real medical imaging datasets
+- Docker containerization for deployment
+- Additional preprocessing techniques
+- Model performance optimization
+- Extended evaluation metrics
 
 ## Contributing
 
@@ -145,19 +115,9 @@ This tool is for educational and research purposes only. It should not be used a
 4. Push to branch (`git push origin feature/improvement`)
 5. Create Pull Request
 
-## License
-
-This project is open source and available under the MIT License.
-
 ## Contact
 
 **Sunny Nguyen**
 - GitHub: [@sunnynguyen-ai](https://github.com/sunnynguyen-ai)
 - Email: sunny.nguyen@onimail.com
 - Website: [sunnyinspires.com](https://sunnyinspires.com)
-
-## Acknowledgments
-
-- Dataset provided by Kermany et al. via Kaggle
-- Inspired by recent advances in medical AI research
-- Built with the TensorFlow and Streamlit communities
