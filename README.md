@@ -32,22 +32,12 @@ medical-image-classifier/
 │   ├── train/              # Training images
 │   ├── test/               # Test images
 │   └── val/                # Validation images
-├── models/
-│   ├── best_model.h5       # Trained model weights
-│   └── model_architecture.json
-├── notebooks/
-│   ├── 01_data_exploration.ipynb    # EDA and visualization
-│   ├── 02_model_training.ipynb      # CNN training process
-│   └── 03_model_evaluation.ipynb   # Performance analysis
+├── models/                 # Model storage
 ├── src/
-│   ├── data_preprocessing.py        # Image preprocessing pipeline
-│   ├── model_training.py           # CNN training script
-│   ├── prediction.py               # Inference functions
-│   └── utils.py                    # Helper functions
-├── web_app/
-│   └── streamlit_app.py            # Web interface
-├── requirements.txt               # Python dependencies
-└── Dockerfile                    # Container configuration
+│   └── model_training.py   # CNN training script
+├── streamlit_app.py        # Web interface
+├── requirements.txt        # Python dependencies
+└── README.md              # Project documentation
 ```
 
 ## Installation
